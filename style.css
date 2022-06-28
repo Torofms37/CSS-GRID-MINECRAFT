@@ -1,0 +1,237 @@
+:root {
+    --verde-l: #a9ffae;
+    --verde-g: rgb(48, 216, 57);
+    --verde-gr: rgb(31, 187, 39);
+    --verde-gra: #1c8321;
+    --black: #000;
+    --black-l: #2f2f2f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right top, #a9ffae, #87df8a, #66c067, #44a145, #1c8321);
+}
+
+.container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template: repeat(8, 50px) / repeat(8, 50px);
+    place-content: center;
+    height: 100vh;
+    grid-template-areas: 
+    "uno dos dos dos dos tre cua cin"
+    "sei sie och nue die die onc onc"
+    "doc tree tree cat cat qui qui dieci"
+    "dis disn disnl disv disv disnll disnn disvv"
+    "veyn veyn veyn veynb veynb veynv veynv veyng"
+    "ya yao yan yan yan yan yanv yanv"
+    "nv nv nn nn nn nn nl ng"
+    "la la ln lv lv lnn lvv lvv";
+}
+
+.item {
+    background-color: var(--verde-l);
+    grid-area: uno;
+}
+
+.item-1 {
+    background-color: var(--verde-g);
+    grid-area: dos;
+}
+
+.item-2 {
+    background-color: var(--verde-gra);
+    grid-area: tre;
+}
+
+.item-3 {
+    background-color: var(--verde-g);
+    grid-area: cua;
+}
+
+.item-4 {
+    background-color: var(--verde-l);
+    grid-area: cin;
+}
+
+.item-5 {
+    background-color: var(--verde-g);
+    grid-area: sei;
+}
+
+.item-6 {
+    background-color: var(--verde-gra);
+    grid-area: sie;
+}
+
+.item-7 {
+    background-color: var(--verde-g);
+    grid-area: och;
+}
+
+.item-8 {
+    background-color: var(--verde-l);
+    grid-area: nue;
+}
+
+.item-9 {
+    background-color: var(--verde-g);
+    grid-area: die;
+}
+
+.item-10 {
+    background-color: var(--verde-l);
+    grid-area: onc;
+}
+
+.item-11 {
+    background-color: var(--verde-g);
+    grid-area: doc;
+}
+
+.item-12 {
+    background-color: var(--black);
+    grid-area: tree;
+}
+
+.item-13 {
+    background-color: var(--verde-g);
+    grid-area: cat;
+}
+
+.item-14 {
+    background-color: var(--black);
+    grid-area: qui;
+}
+
+.item-15 {
+    background-color: var(--verde-gr);
+    grid-area: dieci;
+}
+
+.item-16 {
+    background-color: var(--verde-g);
+    grid-area: dis;
+}
+
+.item-17 {
+    background-color: var(--black);
+    grid-area: disn;
+}
+
+.item-18 {
+    background-color: var(--black-l);
+    grid-area: disnl;
+}
+
+.item-19 {
+    background-color: var(--verde-g);
+    grid-area: disv;
+}
+
+.item-20 {
+    background-color: var(--black-l);
+    grid-area: disnll;
+}
+
+.item-21 {
+    background-color: var(--black);
+    grid-area: disnn;
+}
+
+.item-22 {
+    background-color: var(--verde-g);
+    grid-area: disvv;
+}
+
+.item-23 {
+    background-color: var(--verde-g);
+    grid-area: veyn;
+}
+
+.item-24 {
+    background-color: var(--black);
+    grid-area: veynb;
+}
+
+.item-25 {
+    background-color: var(--verde-g);
+    grid-area: veynv;
+}
+
+.item-26 {
+    background-color: var(--verde-gra);
+    grid-area: veyng;
+}
+
+.item-27 {
+    background-color: var(--verde-g);
+    grid-area: ya;
+}
+
+.item-28 {
+    background-color: var(--verde-l);
+    grid-area: yao;
+}
+
+.item-29 {
+    background-color: var(--black);
+    grid-area: yan;
+}
+
+.item-30 {
+    background-color: var(--verde-g);
+    grid-area: yanv;
+}
+
+.item-31 {
+    background-color: var(--verde-g);
+    grid-area: nv;
+}
+
+
+.item-32 {
+    background-color: var(--black);
+    grid-area: nn;
+}
+
+.item-33 {
+    background-color: var(--verde-l);
+    grid-area: nl;
+}
+
+.item-34 {
+    background-color: var(--verde-g);
+    grid-area: ng;
+}
+
+.item-35 {
+    background-color: var(--verde-g);
+    grid-area: la;
+}
+
+.item-36 {
+    background-color: var(--black);
+    grid-area: ln;
+}
+
+.item-37 {
+    background-color: var(--verde-g);
+    grid-area: lv;
+}
+
+.item-38 {
+    background-color: var(--black);
+    grid-area: lnn;
+}
+
+.item-39 {
+    background-color: var(--verde-g);
+    grid-area: lvv;
+}
